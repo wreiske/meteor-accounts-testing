@@ -1,12 +1,14 @@
+# meteor-accounts-testing
+
 accounts-testing allows you to test different users in your system before integrating with another accounts system.
 
-# Install
+## Install
 
 ```
-mrt install accounts-testing
+$ mrt add accounts-testing
 ```
 
-# Usage
+## Usage
 
 Log in with `username`. If will be created if it doesn't already exist:
 
