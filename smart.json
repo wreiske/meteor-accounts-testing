@@ -1,0 +1,9 @@
+{
+    "name": "accounts-testing",
+    "description": "Accounts drop-in for testing meteor apps",
+    "homepage": "https://github.com/mizzao/meteor-accounts-testing",
+    "author": "Andrew Mao  (http://www.andrewmao.net)",
+    "version": "0.0.1",
+    "git": "https://github.com/mizzao/meteor-accounts-testing.git",
+    "packages": {}
+}
