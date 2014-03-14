@@ -12,7 +12,7 @@ Accounts.registerLoginHandler (loginRequest) ->
 
   stampedToken = Accounts._generateStampedLoginToken();
   Meteor.users.update userId,
-    $push: {'services.resume.loginTokens': stampedToken}
+    $push: {'services.resume.loginTokens': Accounts._hashStampedToken(stampedToken)}
 
   return {
     id: userId,
