@@ -18,4 +18,6 @@ Meteor.insecureUserLogin(username);
 
 Add `{{loginButtons}}` to any template to see the currently logged-in user and get the button to logout.
 
-Check out https://github.com/mizzao/meteor-user-status for a cool plugin that keeps track of which users are online.
+Check out https://github.com/mizzao/meteor-user-status for a cool
+plugin that keeps track of which users are online. This package is
+used in the demo at http://user-status.meteor.com.
