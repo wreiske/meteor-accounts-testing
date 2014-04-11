@@ -5,7 +5,7 @@ Accounts.registerLoginHandler (loginRequest) ->
     username: loginRequest.username
 
   unless user
-    userId = Meteor.users.insert
+    userId = Accounts.insertUserDoc {},
       username: loginRequest.username
   else
     userId = user._id;
